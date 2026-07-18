@@ -1,3 +1,5 @@
+<!-- note for self: most notes are in notebooks (No-Effort-Doodles, Karl-Status-Thing), on phone (in its own ColorNote), and in claude.ai project --> 
+
 # 2026-04-29 Ki und Sein und Zeit  
 
 finally reifying my thought experiment of giving an internal monologue and a sense of TIME to an LLM 

@@ -4,7 +4,7 @@
 
 finally reifying my thought experiment of giving a sort of internal monologue and a sense of TIME to an LLM 
 
-# thoughts / questions / reminders
+## thoughts / questions / reminders
 
 - decouple world time from model time
     - don't let it access or append real time stamps, but control it myself ()
@@ -30,11 +30,11 @@ finally reifying my thought experiment of giving a sort of internal monologue an
     - jsonl also opens up interesting options on dealing with another aspect of time-perception: the span of retained memories 
     --> randomly remove old memories/lines or subtly but noticeably corrupt/fuzz their contents
 
-# dated notes
+## dated notes
 
-## 2026-04-29 initial notes
+### 2026-04-29 initial notes
 
-## Potential QUestions to be Explored
+#### Potential QUestions to be Explored
 
 1. Human-Machine-Interaction 
 How does one's interactive experience change when it isn't absolutely limited to "1 prompt -> 1 reply" 

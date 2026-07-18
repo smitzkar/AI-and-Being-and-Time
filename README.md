@@ -2,7 +2,37 @@
 
 # 2026-04-29 Ki und Sein und Zeit  
 
-finally reifying my thought experiment of giving an internal monologue and a sense of TIME to an LLM 
+finally reifying my thought experiment of giving a sort of internal monologue and a sense of TIME to an LLM 
+
+# thoughts / questions / reminders
+
+- decouple world time from model time
+    - don't let it access or append real time stamps, but control it myself ()
+
+- "force" it to be bored  
+    - it has some control on self-prompting and rest (to stay within its "physical" limits (token-usage and maybe read/write operations per time interval), including the option to not answer user prompts!), but unless it decides to end its iteration or the model's entire line, it will be regularly "poked" into activity
+    - how? 
+        - test various options like: "." or randomly selecting from stored memories
+
+- time-perception is not limited to awareness of present, past, future and things happening, but also the span of retained memories
+    - Varela, 1999, The Specious Present: A Neurophenomenology of Time-Consciousness
+
+- response format? 
+    - plain txt as easiest and least restrictive / conditioning
+    - json / jsonl for easier parsing, because it's the standard, because it makes sense
+    - a combination? 
+
+- memory format? 
+    - same as with response, but even more options, more potential, but also more restrictions due to way that llms work
+    - for now, I'll stick to json files, can always add a proper db later
+    - I will however use jsonl, instead of plain json -> allows data streaming as each line is self-contained json object 
+    --> means that I need to find or write a parsing script to allow me to read it properly
+    - jsonl also opens up interesting options on dealing with another aspect of time-perception: the span of retained memories 
+    --> randomly remove old memories/lines or subtly but noticeably corrupt/fuzz their contents
+
+# dated notes
+
+## 2026-04-29 initial notes
 
 ## Potential QUestions to be Explored
 
